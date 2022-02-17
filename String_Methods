@@ -1,5 +1,5 @@
 
-// Länge des Strings.
+// Länge des Strings. Zum üben.
 var carcolor1 = 'blue';
 var carcolor2 = 'blueredyellowundsoweiterlangertextetaxtesafniq'
 var try1 = carcolor1.length
