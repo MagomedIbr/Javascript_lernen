@@ -1,2 +1,2 @@
 # Javascript
-1
+Learning Javascript!
