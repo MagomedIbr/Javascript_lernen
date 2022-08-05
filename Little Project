@@ -1,6 +1,6 @@
 //Muss in Google Chrome Console reinkopiert werden
 
-//Account erstellen und Password eingeben
+//Login 
 console.log("Hello welcome to the food app");
 console.log("Lets create an account");
 
