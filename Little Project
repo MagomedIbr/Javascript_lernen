@@ -1,0 +1,21 @@
+//Muss in Google Chrome Console reinkopiert werden
+
+//Account erstellen und Password eingeben
+console.log("Hello welcome to the food app");
+console.log("Lets create an account");
+
+
+var userName = prompt("Please create a Username");
+var pass = prompt ("Please create a Password");
+console.log("Thank you! Your account has been created.");
+
+console.log("Please enter your login information");
+var tryUserName = prompt("Username: ");
+var tryPass = prompt ("Password: ");
+
+while(tryUserName!=userName || tryPass!=pass){
+console.log("Username or Password is Wrong please try again")
+var tryUserName = prompt("Username: ")
+var tryPass = prompt ("Password: ");
+}
+console.log("You have sucesfully loged in")
