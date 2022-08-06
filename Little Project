@@ -1,6 +1,6 @@
 //Muss in Google Chrome Console reinkopiert werden
 
-//Login 
+//Login
 console.log("Hello welcome to the food app");
 console.log("Lets create an account");
 
@@ -14,8 +14,25 @@ var tryUserName = prompt("Username: ");
 var tryPass = prompt ("Password: ");
 
 while(tryUserName!=userName || tryPass!=pass){
-console.log("Username or Password is Wrong please try again")
-var tryUserName = prompt("Username: ")
+console.log("Username or Password is Wrong please try again");
+var tryUserName = prompt("Username: ");
 var tryPass = prompt ("Password: ");
 }
-console.log("You have sucesfully loged in")
+console.log("You have sucesfully loged in");
+
+//Geld in das Konto hinzufügen.
+var balance = 10;
+
+console.log("Your current ballance is " + balance + "$");
+var q1 = prompt("Would you like to add money to your account?");
+
+if(q1=="yes" || q1 == "Yes"){
+var balance = parseInt(prompt("Please enter the ammount you want to add")) +balance;
+console.log("Your current ballance is " + balance + "$");
+}
+else if (q1!="yes" || q1 != "Yes"){
+console.log("Have a good day!");
+console.log("Your current ballance is " + balance + "$");
+}
+
+//Will der Nutzer einen blueredyellowundsoweiterlangertextetaxtesafniq

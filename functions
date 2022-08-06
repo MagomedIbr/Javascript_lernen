@@ -1,7 +1,7 @@
 function food(food){
 
 
-console.log("I want to eat " + food)
+console.log("I want to eat " + food);
 
 }
 
@@ -15,9 +15,9 @@ function order(food_,quant, price){
 
 total = quant*price
 food(food_)
-console.log("You ordered " + quant +" slices of Pizza for " + price +"$ each" )
-console.log ("Your total is " + total + "$")
+console.log("You ordered " + quant +" slices of Pizza for " + price +"$ each" );
+console.log ("Your total is " + total + "$");
 
 }
 
-order("Spaghetti",3,3.99)
+order("Spaghetti",3,3.99);

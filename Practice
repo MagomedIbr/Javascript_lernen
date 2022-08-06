@@ -43,8 +43,8 @@ console.log("division of numbers: " + (num1/num2));
 
 var q1 = prompt("please write down a name");
 var q2 = prompt("please write down your favorite color");
-var q3 = prompt("please write down a numer")
-var q4 = prompt("please write down another numer")
+var q3 = prompt("please write down a number")
+var q4 = prompt("please write down another number")
 
 
 function both(name,color,num1,num2){

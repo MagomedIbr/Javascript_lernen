@@ -9,4 +9,4 @@ passtry = prompt("please enter your password");
 while(passtry!=pass){
 passtry = prompt("Wrong password please try again");
 }
-console.log("You are in")
+console.log("You are in");

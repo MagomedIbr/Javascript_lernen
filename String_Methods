@@ -9,7 +9,7 @@ console.log(try2);
 
 // Bestimmten Wert suchen
 
-var str = "I really love Pizza its amazin"
+var str = "I really love Pizza its amazing"
 var try3 = str.indexOf("Pizza")
 console.log(try3);
 console.log(str);
