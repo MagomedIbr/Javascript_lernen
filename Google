@@ -1,6 +1,6 @@
 console.log("Hello, welcome to the store");
 console.log("We offer coffe for 3.49€ each and cookies for 1.99$ each");
-var q1 = prompt("How many cofee cups would you like");
+var q1 = prompt("How many coffee cups would you like");
 var q2 = prompt("How many cookies do you want?");
 var q3 = prompt("How much would you like to leave as a tip");
 
