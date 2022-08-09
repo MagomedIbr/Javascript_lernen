@@ -1,3 +1,4 @@
+
 //outer width and height
 let oh = window.outerHeight;
 let ow = window.outerWidth;
