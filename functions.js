@@ -13,8 +13,8 @@ console.log("I want to eat " + food);
 
 function order(food_,quant, price){
 
-total = quant*price
-food(food_)
+total = quant*price;
+food(food_);
 console.log("You ordered " + quant +" slices of Pizza for " + price +"$ each" );
 console.log ("Your total is " + total + "$");
 
